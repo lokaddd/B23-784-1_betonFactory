@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Страница — 1" id="8DKPJ-FK5oWDknzQhZ_D">
+    <mxGraphModel dx="1750" dy="957" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J_Sg3av88rE-oCfzL41Z-2" target="J_Sg3av88rE-oCfzL41Z-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-2" value="&lt;b&gt;Создание&lt;/b&gt;&lt;br&gt;Entry: открывается окно для создания абонемента&lt;br&gt;Exit: смс об успешном создании абонемента" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-4" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 60%;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Создание&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: 400; background-color: initial;&quot;&gt;Абонемент был создан, но еще не активирован.&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Trigger: пользователь регистрируется и создает абонемент&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="10" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J_Sg3av88rE-oCfzL41Z-10" target="J_Sg3av88rE-oCfzL41Z-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-10" value="&lt;b&gt;Выбор тарифного плана&lt;/b&gt;&lt;br&gt;Entry: открывается окно с доступным ассортиментом услуг" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-15" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 60%;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Выбор тарифного плана&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;line-height: 140%;&quot;&gt;Trigger: пользователь нажимает на кнопку &quot;тарифы&quot;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-31" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="270" width="740" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-7" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 30%;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Активен&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;line-height: 110%; font-size: 15px;&quot;&gt;Абонемент активен и может использоваться пользователем&lt;br&gt;Trigger: пользователь вносит оплату за услугу&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="J_Sg3av88rE-oCfzL41Z-31">
+          <mxGeometry x="60" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-19" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 60%;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 17px; background-color: initial;&quot;&gt;Заморожен&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;Временное состояние, когда абонемент временно недоступен&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Trigger:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;пользователь нажимает на кнопку заморозки абонемента на определенный срок&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="J_Sg3av88rE-oCfzL41Z-31">
+          <mxGeometry x="490" y="10" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-24" value="&lt;b&gt;Продлен&lt;/b&gt;&lt;br&gt;Entry: открывается окно для продления абонемента&lt;br&gt;Exit: смс об успешном продлении абонемента" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J_Sg3av88rE-oCfzL41Z-31">
+          <mxGeometry x="100" y="310" width="195" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-13" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;Активен&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Entry: открывается окно для оплаты услуг по выбранному тарифному плану&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Exit: смс об успешном зачислении средств&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J_Sg3av88rE-oCfzL41Z-31">
+          <mxGeometry x="255" y="80" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="J_Sg3av88rE-oCfzL41Z-31" source="J_Sg3av88rE-oCfzL41Z-24" target="J_Sg3av88rE-oCfzL41Z-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-17" value="&lt;b&gt;Заморожен&lt;br&gt;&lt;/b&gt;Entry: открывается окно для заморозки абонемента на определенный срок&lt;br&gt;Exit: смс об успешной заморозке абонемента" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J_Sg3av88rE-oCfzL41Z-31">
+          <mxGeometry x="530" y="220" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="J_Sg3av88rE-oCfzL41Z-31" source="J_Sg3av88rE-oCfzL41Z-13" target="J_Sg3av88rE-oCfzL41Z-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="J_Sg3av88rE-oCfzL41Z-31" source="J_Sg3av88rE-oCfzL41Z-17" target="J_Sg3av88rE-oCfzL41Z-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-21" value="&lt;b&gt;Истек&lt;/b&gt;&lt;br&gt;Exit: смс об окончании срока действия абонемента" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J_Sg3av88rE-oCfzL41Z-31">
+          <mxGeometry x="330" y="390" width="195" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="J_Sg3av88rE-oCfzL41Z-31" source="J_Sg3av88rE-oCfzL41Z-17" target="J_Sg3av88rE-oCfzL41Z-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="J_Sg3av88rE-oCfzL41Z-31" source="J_Sg3av88rE-oCfzL41Z-13" target="J_Sg3av88rE-oCfzL41Z-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="J_Sg3av88rE-oCfzL41Z-31" source="J_Sg3av88rE-oCfzL41Z-21" target="J_Sg3av88rE-oCfzL41Z-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-22" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 50%;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;Истек&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;Абонемент завершил свое действие&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Trigger: окончание действия абонемента&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="J_Sg3av88rE-oCfzL41Z-31">
+          <mxGeometry x="540" y="380" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-32" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 53%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Продлен&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13px; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Абонемент был продлен на новый срок&lt;br&gt;Trigger: зачисление средств для продления абонемента&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="J_Sg3av88rE-oCfzL41Z-31">
+          <mxGeometry x="25" y="180" width="165" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-34" value="&lt;b&gt;Удаление&lt;br&gt;&lt;/b&gt;Entry: открывается окно для удаления абонемента&lt;br&gt;Exit: смс об успешном удалении абонемента" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356.5" y="830" width="202" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_Sg3av88rE-oCfzL41Z-21" target="J_Sg3av88rE-oCfzL41Z-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_Sg3av88rE-oCfzL41Z-36" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 60%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Удаление&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-weight: normal; font-size: 15px;&quot;&gt;Полное удаление всех данных о пользователе&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="850" width="180" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
